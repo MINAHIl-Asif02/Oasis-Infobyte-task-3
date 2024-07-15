@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(4, 4, 60);
+}
+.container{
+    height: 50%;
+    width: 40%;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 5%;
+}
+h1{
+    font-size: 40px;
+    position: absolute;
+    top: 20%;
+}
+#num{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    padding: 8px;
+}
+#unit{
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    padding: 8px;
+}
+
+button{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5%;
+    background-color: black;
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    color: white;
+    cursor: pointer;
+}
+#result{
+    position: absolute;
+    top: 90%;
+
+}
